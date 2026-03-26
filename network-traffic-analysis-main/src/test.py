@@ -40,7 +40,7 @@ def packet_callback(packet):
 
         # Check for suspicious traffic patterns
         if dns_query:
-            print(f"Suspicious DNS query detected: {dns_query}")
+            print(f"Suspicious DNS sekhar query detected: {dns_query}")
 
         # Early detection of potential attacks
         if src_port == 6667 or dst_port == 6667:  # Example of detecting traffic on a known malicious port
